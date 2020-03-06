@@ -19,6 +19,7 @@ class BonesPlugin extends JavaPlugin {
         pm.registerEvents(blockListener, this);
 
         getCommand("pos").setExecutor(new PosCommand());
+        getCommand("boboss").setExecutor(new BobossCommand());
 
         PluginDescriptionFile pdfFile = this.getDescription();
         getLogger().info( pdfFile.getName() + " version " + pdfFile.getVersion() + " is enabled!" );
