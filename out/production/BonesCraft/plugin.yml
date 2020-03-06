@@ -8,3 +8,6 @@ commands:
   pos:
     description: Displays your position or teleports you to another.
     usage: "Usage: '/pos' to get current position, or '/pos x y z' to teleport to x,y,z"
+  boboss:
+    description: Spawns a Bob with prot 4 and sharp 5.
+    usage: "Usage: '/boboss' Spawns a Bob with prot 4 and sharp 5."
