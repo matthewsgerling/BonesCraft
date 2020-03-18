@@ -6,10 +6,7 @@ import org.bukkit.event.player.PlayerJoinEvent;
 
 import org.bukkit.event.player.PlayerQuitEvent;
 
-/**
- * Handle events for all Player related events
- * @author Dinnerbone
- */
+
 public class PlayerListener implements Listener {
     private final BonesPlugin plugin;
 
